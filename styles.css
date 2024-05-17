@@ -1,0 +1,73 @@
+.top {
+    height: 100px;
+    background-color:cadetblue;}
+
+#heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #fff;
+    margin: 0;
+    padding-left: 10px;
+} 
+
+.nav{ overflow: hidden; }
+.nav a {
+    float: left;
+    color:grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a.active {
+    background-color: black;
+    color: white;
+}
+.nav a:hover {
+    background-color: black;
+    color: white;
+}
+.nav img {float:right;height: 30px;padding: 10px;}
+
+.bar{display: flex;
+    align-items: center;
+    padding:10px 0px}
+#breakingNews {margin-right: 10px;}
+#bnews {margin-right: auto;
+    text-decoration: none;
+    color:red}
+#weather { margin-right: 10px;
+    text-decoration: none;
+    color:black}
+#weather:hover{color:blue}
+#bnews:hover{color:blue}
+#sun {margin-left:0}
+
+.blog img{width:100%}
+
+.featured {
+    width: 60%;
+    float: left
+}
+
+.sidebar { width: 35%;
+    float: right;
+    overflow-y: scroll;
+    height: 100vh
+}
+
+.blog-box { 
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    overflow-y: auto
+}
+.blog-box img { width: 100%}
+
