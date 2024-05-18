@@ -1,0 +1,40 @@
+.top {
+    height: 100px;
+    background-color:cadetblue;}
+
+#heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #fff;
+    margin: 0;
+    padding-left: 10px;
+} 
+
+.nav{ overflow: hidden; }
+.nav a {
+    float: left;
+    color:grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a.active {
+    background-color: black;
+    color: white;
+}
+
+.nav img {float:right;height: 30px;padding: 10px;}
+
+.blog img{width:100%}
+
+.featured {
+    width: 60%;
+    float: left
+}
+
+.sidebar { width: 35%;
+    float: right;
+    overflow-y: scroll;
+    height: 100vh
+}
