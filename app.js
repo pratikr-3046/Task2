@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function f(blog, index) {
     if (index === 0) {
-        return `<p>${blog.author}</p><p>${blog.type}</p>`;
+        return `<p>Journalist: ${blog.author}</p><p>${blog.type}</p>`;
     } else {
         return ' ';
     }
@@ -39,7 +39,7 @@ function makeNewBlogs(data) {
         elem.innerHTML = `
             <img src="${blog.image}" alt="${blog.headline}" >
             <h2>${blog.headline}</h2>
-            <p>${new Date(blog.date).toLocaleDateString()}</p>
+            <p>Date: ${new Date(blog.date).toLocaleDateString()}</p>
             ${f(blog, index)}
         `;
         elem.addEventListener('click', () => ifClicked(blog));
